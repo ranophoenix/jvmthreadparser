@@ -3,7 +3,7 @@ This project converts a JVM thread dump generated with jstack -l &lt;PID> to a p
 
 Example:
 
-```python
+```
 c:\temp\jvmthreadparser>python
 Python 3.5.3 |Anaconda custom (64-bit)| (default, Feb 22 2017, 21:28:42) [MSC v.1900 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
