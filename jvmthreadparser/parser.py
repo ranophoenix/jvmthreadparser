@@ -62,7 +62,6 @@ def parser(content):
                     state = gc_state_match.group(1)
                 
            thread_list.append((dump_date_time, thread_body, state.strip().upper()))
-       break           
     
     df = pd.DataFrame(thread_list, columns=["DateTime", "Thread", "State"])
     
