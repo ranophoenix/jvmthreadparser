@@ -73,7 +73,7 @@ def parser(file, load_thread_content = True):
     
 def _get_thread_state(thread_content):
     state_pattern = re.compile(r'\s{3}java\.lang\.Thread\.State:\s(.+)')
-    gc_state_pattern = re.compile(r'nid=0x\w{4} (.+)')
+    gc_state_pattern = re.compile(r'nid=0x\w+ (.+)')
     state = '<NA>'
     state_match = state_pattern.search(thread_content)
     if state_match:
